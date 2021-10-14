@@ -1,20 +1,15 @@
-from utils.app_exceptions import AppExceptionCase
-from fastapi import FastAPI
-
-from routers import foo
-from config.database import create_tables
-
-from fastapi.exceptions import RequestValidationError
 from starlette.exceptions import HTTPException as StarletteHTTPException
+from fastapi import FastAPI
+from fastapi.exceptions import RequestValidationError
 
-from utils.request_exceptions import (
-    http_exception_handler,
-    request_validation_exception_handler,
-)
-from utils.app_exceptions import app_exception_handler
+from app.config.database import create_tables
+from app.utils.app_exceptions import AppExceptionCase
+from app.routers import foo
+from app.utils.request_exceptions import http_exception_handler, request_validation_exception_handler
+from app.utils.app_exceptions import app_exception_handler
+
 
 create_tables()
-
 
 app = FastAPI()
 
