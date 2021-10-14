@@ -13,6 +13,7 @@
 pip install -r requirmetns.txt
 ```
 ***NOTE: No version set in requirmetns!***
+
 ***NOTE: docker-compose only for dev env and only with DB!***
 
 ## Run:
