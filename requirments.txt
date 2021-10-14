@@ -1,0 +1,10 @@
+uvicorn
+psycopg2-binary
+fastapi
+pydantic[dotenv]
+pydantic[email]
+SQLAlchemy
+databases
+asyncpg
+pytest
+requests
