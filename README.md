@@ -2,7 +2,7 @@
 
 [It's fork, with some changes. Thank for this work!🙂](https://github.com/visini/abstracting-fastapi-services)
 
-### Defaul stack:
+### Default stack:
 - DB: Postgresql
 - ORM: SQLAlchemy
 - test: pytest
@@ -16,7 +16,7 @@ pip install -r requirmetns.txt
 
 ***NOTE: docker-compose only for dev env and only with DB!***
 
-## Run:
+#### Run:
 create ```.env```:
 ```
 DB_NAME="my_db_name"
