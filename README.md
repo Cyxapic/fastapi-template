@@ -1,5 +1,7 @@
 # FastAPI start template
 
+[It's fork, with some changes. Thank for this work!](https://github.com/visini/abstracting-fastapi-services)
+
 ### Defaul stack:
 - DB: Postgresql
 - ORM: SQLAlchemy
